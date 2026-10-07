@@ -1,13 +1,13 @@
 id: 30
-logical_id: warehouse-demo-labs
-name: Fabric Warehouse Demo Labs
+logical_id: warehouse-workshop-labs
+name: Fabric Warehouse Workshop labs
 description: >-
   Hands-on labs for Microsoft Fabric Data Warehouse using a TPC-H sample
   dataset: load data with COPY INTO/INSERT INTO/OPENROWSET, tune performance
   with clustering and custom SQL pools, recover from mistakes with snapshots,
   time travel, and table clones, explore the SQL analytics endpoint, and
   secure your warehouse with SQL audit logs.
-date_added: 08/12/2026
+date_added: 10/07/2026
 workload_tags:
 - Data Warehouse
 - Data Engineering
@@ -17,7 +17,7 @@ type: Tutorial
 source:
   repo_url: https://github.com/microsoft/fabric-warehouse-training-lab.git
   workspace_path: fabric-warehouse-training-lab/
-  repo_ref: main
+  repo_ref: v1.0.0
 items_in_scope:
 - Lakehouse
 - Warehouse
